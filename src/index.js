@@ -5,11 +5,11 @@ import { Provider } from 'react-redux';
 import thunkMiddleware from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 import 'tachyons';
+import './index.css';
 
 import App from './containers/App';
-import { requestRobots, searchRobots } from './reducers'
-
-import './index.css';
+// Reducer functions
+import { requestRobots, searchRobots } from './reducers'; 
 
 const logger = createLogger() 
 
@@ -24,10 +24,4 @@ root.render(
 </Provider>
 );
 
-// ReactDOM.render(
-//   <Provider store={store}>
-//     <App/>
-//   </Provider>,
-//   document.getElementById('root')
-// );
 
