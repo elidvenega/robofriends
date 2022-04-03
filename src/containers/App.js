@@ -39,7 +39,7 @@ class App extends Component {
     })
     return (
       <div className='tc'>
-        <h1>RoboFriends</h1>
+        <h1>Kittens</h1>
         <SearchBox searchChange={onSearchChange}/>
         <Scroll>
           { isPending ? <h1>Loading</h1> :
@@ -55,3 +55,10 @@ class App extends Component {
 
 // action done from mapDispatchToProps will channge state from mapStateToProps
 export default connect(mapStateToProps, mapDispatchToProps)(App)
+
+
+
+
+
+
+
