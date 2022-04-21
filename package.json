@@ -8,9 +8,9 @@
     "joi": "^17.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-redux": "^7.2.8",
-    "react-scripts": "^5.0.0",
-    "redux": "4.1.2",
+    "react-redux": "^8.0.1",
+    "react-scripts": "^5.0.1",
+    "redux": "4.2.0",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.1",
     "tachyons": "^4.11.1"
@@ -22,7 +22,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "webpack-dev-server": "^4.7.4"
+    "webpack-dev-server": "^4.8.1"
   },
   "browserslist": {
     "production": [
